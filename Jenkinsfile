@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/your-username/flask-cicd.git'
+                git 'https://github.com/vishalsandhan/Jenkins-Daily-task-7.git'
             }
         }
         stage('Build Docker Image') {
