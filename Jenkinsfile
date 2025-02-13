@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/vishalsandhan/Jenkins-Daily-task-7.git'
+                checkout scm
             }
         }
         stage('Build Docker Image') {
